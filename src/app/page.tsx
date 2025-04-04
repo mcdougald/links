@@ -7,9 +7,7 @@ import {
   SiGithub,
   SiInstagram,
   SiStackoverflow,
-  SiSteam,
-  SiX,
-  SiYoutube
+  SiX
 } from 'react-icons/si'
 
 import Spotlight from '@/components/spotlight'
@@ -20,32 +18,22 @@ const links = [
   {
     icon: <FiBook className='text-zinc-300' />,
     title: 'Blog',
-    url: 'https://honghong.me/blog'
-  },
-  {
-    icon: <SiYoutube className='text-zinc-300' />,
-    title: 'YouTube',
-    url: 'https://www.youtube.com/@tszhong0411'
+    url: 'https://trev.fyi/posts'
   },
   {
     icon: <SiFacebook className='text-zinc-300' />,
     title: 'Facebook',
-    url: 'https://www.facebook.com/tszhong0411/'
-  },
-  {
-    icon: <SiSteam className='text-zinc-300' />,
-    title: 'Steam',
-    url: 'https://steamcommunity.com/profiles/76561199157324617/'
+    url: 'https://www.facebook.com/trevormcdougald.7/'
   },
   {
     icon: <SiInstagram className='text-zinc-300' />,
     title: 'Instagram',
-    url: 'https://instagram.com/tszhong0411/'
+    url: 'https://instagram.com/trevormcdougald/'
   },
   {
     icon: <SiGithub className='text-zinc-300' />,
     title: 'GitHub',
-    url: 'https://github.com/tszhong0411'
+    url: 'https://github.com/mcdougald'
   },
   {
     icon: <SiDiscord className='text-zinc-300' />,
@@ -75,14 +63,14 @@ const HomePage = () => {
       <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'>
         <Spotlight className='-top-4 left-56' />
         <Image
-          src='https://honghong.me/images/avatar.png'
+          src='https://trev.fyi/images/avatar.png'
           width={90}
           height={90}
           alt='Logo'
           className='rounded-full'
           priority
         />
-        <h1 className='text-xl font-semibold'>Nelson</h1>
+        <h1 className='text-xl font-semibold'>Trevor McDougald</h1>
         <p className='text-[#a1a1a1]'>Full Stack Engineer</p>
       </div>
       <PrimaryLinks />

@@ -7,6 +7,7 @@ import { GeistSans } from 'geist/font/sans'
 import Footer from '@/components/footer'
 
 import Analytics from './analytics'
+// @ts-expect-error - svg import works
 import grid from './grid.svg'
 
 type RootLayoutProps = {
@@ -14,8 +15,8 @@ type RootLayoutProps = {
 }
 
 const SITE_URL =
-  process.env.NODE_ENV === 'production' ? 'https://links.honghong.me' : 'http://localhost:3000'
-const SITE_TITLE = 'Links | Nelson Lai - A Full Stack Engineer'
+  process.env.NODE_ENV === 'production' ? 'https://links.trev.fyi' : 'http://localhost:3000'
+const SITE_TITLE = 'Links | Trevor McDougald - A Full Stack Engineer'
 const SITE_DESCRIPTION =
   'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
 
@@ -38,11 +39,11 @@ export const metadata: Metadata = {
   twitter: {
     title: 'Nelson Lai',
     card: 'summary_large_image',
-    site: '@tszhong0411',
-    creator: '@tszhong0411',
+    site: '@mcdougald',
+    creator: '@mcdougald',
     images: [
       {
-        url: 'https://honghong.me/images/projects/links/cover.png',
+        url: 'https://trev.fyi/images/projects/links/cover.png',
         width: 1280,
         height: 832,
         alt: SITE_DESCRIPTION
@@ -52,8 +53,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL
   },
-  keywords: ['tszhong0411', 'tszhong0411 social media', 'tszhong0411 links', 'links'],
-  creator: 'tszhong0411',
+  keywords: ['mcdougald', 'mcdougald social media', 'mcdougald links', 'links'],
+  creator: 'TrevorMcDougald',
   openGraph: {
     url: SITE_URL,
     type: 'website',
@@ -63,7 +64,7 @@ export const metadata: Metadata = {
     locale: 'en-US',
     images: [
       {
-        url: 'https://honghong.me/images/projects/links/cover.png',
+        url: 'https://trev.fyi/images/projects/links/cover.png',
         width: 1280,
         height: 832,
         alt: SITE_DESCRIPTION,
