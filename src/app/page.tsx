@@ -70,8 +70,8 @@ const HomePage = () => {
           className='rounded-full'
           priority
         />
-        <h1 className='text-xl font-semibold'>Trevor McDougald</h1>
-        <p className='text-[#a1a1a1]'>Full Stack Engineer</p>
+        <h1 className='text-center text-6xl font-semibold'>Trevor McDougald</h1>
+        <p className='text-xl text-[#a1a1a1]'>Full Stack Engineer</p>
       </div>
       <PrimaryLinks />
       <div className='flex flex-col gap-4 py-3'>
