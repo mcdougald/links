@@ -7,7 +7,6 @@ import { GeistSans } from 'geist/font/sans'
 import Footer from '@/components/footer'
 
 import Analytics from './analytics'
-// @ts-expect-error - svg import works
 import grid from './grid.svg'
 
 type RootLayoutProps = {
