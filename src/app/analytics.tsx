@@ -6,8 +6,8 @@ const Analytics = () => {
   return (
     <Script
       async
-      data-website-id='b1b4bdde-b3e9-4c24-b7af-d0c0983f56a9'
-      src='https://umami.honghong.me/script.js'
+      data-website-id='89ba49be-721f-471f-9700-eddec1d632dc'
+      src='https://umami.trev.fyi/script.js'
     />
   )
 }
