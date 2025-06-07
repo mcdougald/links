@@ -32,8 +32,10 @@
     }
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.34.0",
     "@tszhong0411/utils": "^0.0.22",
     "geist": "^1.4.2",
+    "lucide-react": "^0.513.0",
     "next": "15.2.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",

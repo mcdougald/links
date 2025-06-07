@@ -123,7 +123,7 @@ const RootLayout = (props: RootLayoutProps) => {
           }}
         />
         <div className='relative min-h-screen overflow-x-hidden'>
-          <main className='relative mx-auto max-w-lg px-4'>{children}</main>
+          <main className='relative mx-auto max-w-xl px-4'>{children}</main>
         </div>
         <Footer />
         <Analytics />

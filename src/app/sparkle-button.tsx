@@ -29,6 +29,25 @@ const Particle = (props: ParticleProps) => (
   </svg>
 )
 
+/**
+ * Example:
+ *
+ *       <SparkleButton className='mb-6'>
+ *         <a
+ *           href='https://trev.fyi'
+ *           target='_blank'
+ *           className={SparkleButton.ClassName}
+ *           rel='noopener, noreferrer'
+ *         >
+ *           <SparkleButton.Spark />
+ *           <SparkleButton.Backdrop />
+ *           <SparkleButton.Text>Website</SparkleButton.Text>
+ *         </a>
+ *       </SparkleButton>
+ *
+ * @param props
+ * @constructor
+ */
 const SparkleButton = (props: SparkleButtonProps) => {
   const { children, className } = props
 
