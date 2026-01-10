@@ -2,8 +2,8 @@ import SparkleButton from './sparkle-button'
 
 const PrimaryLinks = () => {
   return (
-    <div className='flex items-center justify-center gap-6'>
-      <SparkleButton className='mb-6'>
+    <div className='flex items-center justify-center gap-6 mt-6'>
+      <SparkleButton className='mb-6 bg-black'>
         <a
           href='https://trev.fyi'
           target='_blank'
@@ -16,7 +16,7 @@ const PrimaryLinks = () => {
         </a>
       </SparkleButton>
 
-      <SparkleButton className='mb-6'>
+      <SparkleButton className='mb-6 bg-black'>
         <a href='mailto:mcdougald.job@gmail.com' className={SparkleButton.ClassName}>
           <SparkleButton.Spark />
           <SparkleButton.Backdrop />

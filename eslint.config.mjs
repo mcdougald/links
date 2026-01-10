@@ -1,4 +1,4 @@
-import tszhong0411 from '@tszhong0411/eslint-config'
+import tszhong0411 from '@mcdougald/eslint-config'
 
 export default tszhong0411({
   project: './tsconfig.json',

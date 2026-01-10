@@ -90,11 +90,11 @@ const SparkleButton = (props: SparkleButtonProps) => {
 }
 
 const Spark = () => (
-  <span className='absolute inset-0 animate-flip overflow-hidden rounded-[100px] [mask:linear-gradient(white,transparent_50%)] [rotate:0deg] before:absolute before:left-1/2 before:top-0 before:aspect-square before:w-[200%] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:opacity-[calc(var(--active)+0.4)] before:[transform:rotate(-90deg)] before:[transition:opacity_var(--transition)] before:[translate:-50%_-15%] after:absolute after:inset-[--cut] after:rounded-[100px]' />
+  <span className='absolute bg-black inset-0 animate-flip overflow-hidden rounded-[100px] [mask:linear-gradient(white,transparent_50%)] [rotate:0deg] before:absolute before:left-1/2 before:top-0 before:aspect-square before:w-[200%] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:opacity-[calc(var(--active)+0.4)] before:[transform:rotate(-90deg)] before:[transition:opacity_var(--transition)] before:[translate:-50%_-15%] after:absolute after:inset-[--cut] after:rounded-[100px]' />
 )
 
 const Backdrop = () => (
-  <span className='absolute inset-[--cut] rounded-[100px] transition-[background_var(--transition)] [background:--bg]' />
+  <span className='absolute bg-black inset-[--cut] rounded-[100px] transition-[background_var(--transition)] [background:--bg]' />
 )
 
 const Text = (props: TextProps) => {
@@ -110,7 +110,7 @@ const Text = (props: TextProps) => {
 const ClassName = cn(
   'peer relative flex scale-[calc(1+var(--active)*0.1)] items-center gap-[0.25em] whitespace-nowrap rounded-[100px] px-6 py-4 font-medium transition-[shadow_var(--transition,scale_var(--transition),background_var(--transition))] [--active:0] [--cut:0.1em] [background:--bg]',
   'before:absolute before:inset-[-0.25em] before:-z-10 before:rounded-[100px] before:border-[0.25em] before:border-solid before:border-[hsl(0_0%_20.08%/0.5)] before:opacity-[var(--active,0)] before:transition-[opacity_var(--transition)]',
-  '[--bg:radial-gradient(80%_100%_at_center_120%,hsl(0_0%_20%/var(--active)),transparent),hsl(260_0%_12%)]',
+  '[--bg:radial-gradient(80%_100%_at_center_120%,hsl(0_0%_20%/var(--active)),transparent),black]',
   'shadow-[0_0_calc(var(--active)*6em)_calc(var(--active)*3em)_hsl(0_0%_13.08%/75%),0_0.05em_0_0_hsl(0_0%_calc((var(--active)*20%)+30%))_inset,0_-0.05em_0_0_hsl(0_0%_calc(var(--active)*30%))_inset]',
   'hover:[--active:1] hover:[--play-state:running]',
   'active:scale-100'
